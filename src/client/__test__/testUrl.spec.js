@@ -14,6 +14,8 @@ describe('Test check url functionality', () => {
 
     test('Testing the checkUrl function return true for valid url', () => {
         // TODO: write your logic here
-        expect(isValidURL('https://jamesclear.com/five-step-creative-process')).toBeTruth()
+        expect(
+            isValidURL('http://localhost:8080/?input=https%3A%2F%2Fjamesclear.com%2Ffive-step-creative-process')
+        ).toBeTruth()
     })
 })
