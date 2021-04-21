@@ -15,7 +15,9 @@ describe('Test check url functionality', () => {
     test('Testing the checkUrl function return true for valid url', () => {
         // TODO: write your logic here
         expect(
-            isValidURL('http://localhost:8080/?input=https%3A%2F%2Fjamesclear.com%2Ffive-step-creative-process')
+            isValidURL(
+                'https://medium.com/javarevisited/how-to-prepare-for-aws-developer-associate-certification-dva-c01-exam-f65313b32309'
+            )
         ).toBeTruth()
     })
 })
